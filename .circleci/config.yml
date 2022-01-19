@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run: 
           name: Install dependencies
-          command: npm install
+          command: npm install --save --legacy-peer-deps
       - run:
           name: Run Tests
           command: npm run test
